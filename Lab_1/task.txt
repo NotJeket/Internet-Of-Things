@@ -1,0 +1,15 @@
+1. ce rol are GPIO_CONFIG
+
+GPIO_CONFIG are rolul de de a incarca configurile puse in cod catre ESP-32 acestea fiind trimise catre GPIO Header 2 (unde se afla LED-UL)
+
+2. celelalte moduri de configurare GPIO.
+
+Poate sa fie configurat si ca analog to digital, digital to analog, SPI flash, PWM(pulse with modulation),
+
+3. Explicati apelul vTaskDelay.
+
+vTaskDelay este o functie folosita in sistemele FreeRTOS care introduce delay-uri. acesta da voie altor task-uri sa ruleze in locul CPU-ului.
+
+4. De ce se numeste functia principala app_main
+
+functia este denumta app_main() deoarece aceasta servete ca punct de intrare pentru codul utilizatorului. stabilita prin conventie acesta ramane consistenta in mai toate proiectele.
