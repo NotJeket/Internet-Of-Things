@@ -1,0 +1,7 @@
+rfc9110 the http request codes.
+201 on created,
+200 on ok,
+202 on accepted,
+204 on no content
+
+la delete stergere de config, nu si la senzor.

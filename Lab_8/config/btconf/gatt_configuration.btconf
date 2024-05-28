@@ -11,7 +11,7 @@
       <value length="12" type="utf-8" variable_length="false">IoT-Rogoz</value>
       <properties>
         <read authenticated="false" bonded="false" encrypted="false"/>
-        <write authenticated="false" bonded="false" encrypted="false"/>
+        <write authenticated="false" bonded="true" encrypted="false"/>
       </properties>
     </characteristic>
 
